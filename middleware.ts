@@ -7,7 +7,8 @@ export default authMiddleware({
     '/events/:id',
     '/api/webhook/clerk',
     '/api/webhook/stripe',
-    '/api/uploadthing'
+    '/api/uploadthing',
+    "/api/webhooks(.*)"
   ],
 
   // Routes that can always be accessed, and have
